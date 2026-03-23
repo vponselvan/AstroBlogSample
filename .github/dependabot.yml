@@ -5,22 +5,8 @@ updates:
     schedule:
       interval: "weekly"
       day: "monday"
-    open-pull-requests-limit: 10
+    open-pull-requests-limit: 1
     groups:
-      astro:
+      all-dependencies:
         patterns:
-          - "astro"
-          - "@astrojs/*"
-      preact:
-        patterns:
-          - "preact"
-          - "@preact/*"
-      eslint:
-        patterns:
-          - "eslint"
-          - "eslint-*"
-          - "@typescript-eslint/*"
-      prettier:
-        patterns:
-          - "prettier"
-          - "prettier-*"
+          - "*"
